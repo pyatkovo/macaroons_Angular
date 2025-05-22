@@ -1,1 +1,77 @@
-/* You can add global styles to this file, and also import other style files */
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@font-face {
+  font-family: Tavolga;
+  src: url("./assets/fonts/tavolga-free.ttf");
+}
+
+@font-face {
+  font-family: Gilroy-Bold;
+  src: url("./assets/fonts/Gilroy-Bold.ttf") format("truetype");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: Gilroy-Extrabold;
+  src: url("./assets/fonts/Gilroy-Extrabold.ttf") format("truetype");
+
+}
+
+@font-face {
+  font-family: Gilroy-Medium;
+  src: url("./assets/fonts/Gilroy-Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: Gilroy-Regular;
+  src: url("./assets/fonts/Gilroy-Regular.ttf") format("truetype");
+}
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.btn {
+  border: 0;
+  border-radius: 30px;
+  background-image: -moz-linear-gradient(90deg, rgb(113, 8, 30) 0%, rgb(215, 72, 92) 100%);
+  background-image: -webkit-linear-gradient(90deg, rgb(113, 8, 30) 0%, rgb(215, 72, 92) 100%);
+  background-image: -ms-linear-gradient(90deg, rgb(113, 8, 30) 0%, rgb(215, 72, 92) 100%);
+  background: linear-gradient(90deg, rgb(113, 8, 30) 0%, rgb(215, 72, 92) 100%);
+  font-size: 18px;
+  font-family: Gilroy-Bold, sans-serif;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  transition: 0.2s;
+}
+
+.btn:hover {
+  box-shadow: 0px 5px 9px 1px rgba(130, 19, 40, 0.5);
+}
+
+@media screen and (max-width: 1139px) {
+  .container {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+}
+@media screen and (max-width: 769px) {
+
+  .container {
+    padding: 0 20px;
+
+  }
+}
+@media screen and (max-width: 559px) {
+
+  .container {
+    padding: 0 15px;
+  }
+}
