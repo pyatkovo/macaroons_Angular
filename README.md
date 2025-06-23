@@ -1,27 +1,37 @@
-# Macaroons
+# 🧁 Сайт заказа макарунов
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.13.
+![Angular](https://img.shields.io/badge/Built%20with-Angular%2014-dd0031?style=flat-square&logo=angular)
+![TypeScript](https://img.shields.io/badge/TypeScript-%23007ACC.svg?style=flat-square&logo=typescript&logoColor=white)
+![SCSS](https://img.shields.io/badge/Styled%20with-SCSS-hotpink?style=flat-square)
+![Responsive](https://img.shields.io/badge/Layout-Responsive-32CD32?style=flat-square)
 
-## Development server
+## 🍬 О проекте
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Одностраничный сайт для заказа макарунов, выполненный на **Angular + TypeScript + SCSS**.
 
-## Code scaffolding
+Полностью адаптивный интерфейс с красивым дизайном и формами заказа.  
+Проект демонстрирует умение создавать коммерческий сайт с акцентом на UX/UI и валидацию форм.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## 🧩 Основные возможности
 
-## Build
+- 📱 Адаптивный дизайн под любые устройства
+- 🧾 Форма оформления заказа с валидацией
+- 🎨 Приятный и аккуратный интерфейс
+- 🧭 Навигация по сайту
+- 📦 Структура, пригодная для расширения
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## 🛠️ Используемые технологии
 
-## Running unit tests
+- Angular 14
+- TypeScript
+- SCSS
+- HTML5
+- Reactive Forms
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## 🚀 Как запустить проект локально
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+```bash
+git clone https://github.com/pyatkovo/macaroons_Angular.git
+cd macaroons_Angular
+npm install
+ng serve
